@@ -1,0 +1,22 @@
+var name=new Array();
+name[0]="yaakov";
+name[1]="john";
+name[2]="jen";
+name[3]="jason";
+name[4]="paul";
+name[5]="frank";
+name[6]="larry";
+name[7]="paula";
+name[8]="laura";
+name[9]="jim";
+
+
+for (var i = 0;i < name.length; i++) {
+    if(name[i].chartAt(0)==='j'|| name[i].chart(0)==='j'){
+         console.log("goodbye "+ names[i])
+         }
+else{
+	console.log("HELLO"+ name[i])
+}     
+
+}
